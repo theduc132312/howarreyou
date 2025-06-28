@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>💝 cậu là 1 người tớ thấy xinh đẹp một cách tớ chưa bao giờ thấy , có lẽ tớ nghĩ đây là định mệnh 💝</title>
+  <style>
+    body {
+      background-color: #fff8f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      text-align: center;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 0 20px;
+    }
+
+    .heart {
+      width: 100px;
+      height: 90px;
+      position: relative;
+      animation: pulse 1s infinite;
+      margin-bottom: 20px;
+    }
+
+    .heart::before,
+    .heart::after {
+      content: "";
+      position: absolute;
+      width: 100px;
+      height: 90px;
+      background: red;
+      border-radius: 50%;
+    }
+
+    .heart::before {
+      top: -50px;
+      left: 0;
+    }
+
+    .heart::after {
+      left: 50px;
+      top: 0;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+
+    .message {
+      font-size: 18px;
+      color: #cc0066;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="heart"></div>
+  <div class="message">
+    cậu là 1 người tớ thấy xinh đẹp một cách tớ chưa bao giờ thấy , có lẽ tớ nghĩ đây là định mệnh 💝 😅<br>
+    
+    Vàng bạc không cần đeo vì... <strong>có tui là sáng nhất rồi</strong> 💫😎<br><br>
+    👉 Chuẩn bị nhận bất ngờ nào...
+  </div>
+
+  <script>
+    setTimeout(() => {
+      window.location.href = "https://www.facebook.com/profile.php?id=100085173979129";
+    }, 5000); // 10 giây
+  </script>
+</body>
+</html>
